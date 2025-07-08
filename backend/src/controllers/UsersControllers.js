@@ -1,5 +1,5 @@
 // Array de métodos (C R U D)
-const UsersController = {};
+const usersController = {};
 import usersModel from "../models/Users.js";
 
 // SELECT - Obtener todos los usuarios
@@ -68,4 +68,4 @@ usersController.updateUser = async (req, res) => {
   }
 };
 
-export default UsersController;
+export default usersController;
